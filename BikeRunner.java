@@ -1,11 +1,11 @@
 class BikeRunner{
- public static void main(string[] args){
+ public static void main(String[] args){
 
 Bike.getBike();
-bike.bikeInfo("KTM");
-String Info=bike.bikeDetails();
+Bike.bikeInfo("NSS");
+String Info=Bike.bikeDetails();
 System.out.println(Info);
-String Info=bike.getbikeDetails("KTM");
-Sysytem.out.println(Info);
+String Inf=Bike.getBikeDetails("dfgh");
+System.out.println(Inf);
 }
 }

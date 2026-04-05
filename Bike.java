@@ -1,37 +1,24 @@
-class Bike {
+class Bike{
 
-    public static void main(String[] args) {
+ static String bikeName="NS";
+ static int model =2024;
 
-        String bikeName;
-        double price;
-        char bikeGrade;
-        boolean isElectric;
-        int bikeId;
-
-        bikeName = "Pulsar";
-        price = 95000.50;
-        bikeGrade = 'A';
-        isElectric = false;
-        bikeId = 301;
-
-        System.out.println("Bike Name: " + bikeName);
-        System.out.println("Price: " + price);
-        System.out.println("Bike Grade: " + bikeGrade);
-        System.out.println("Electric Bike: " + isElectric);
-        System.out.println("Bike ID: " + bikeId);
-
-        bikeName = "Activa Electric";
-        price = 120000.75;
-        bikeGrade = 'B';
-        isElectric = true;
-        bikeId = 302;
-
-        System.out.println("---- After Changing Values ----");
-
-        System.out.println("Bike Name: " + bikeName);
-        System.out.println("Price: " + price);
-        System.out.println("Bike Grade: " + bikeGrade);
-        System.out.println("Electric Bike: " + isElectric);
-        System.out.println("Bike ID: " + bikeId);
-    }
+public static void getBike(){
+System.out.println("bike name is:" +bikeName);
 }
+
+public static void bikeInfo(String bikeName){
+System.out.println("bike name is:" +bikeName);
+}
+public static String bikeDetails(){
+System.out.println("bike name is:" +bikeName);
+return bikeName;
+}
+
+public static String getBikeDetails(String bikeName){
+System.out.println("bike name is:" +bikeName);
+return bikeName;
+}
+}
+
+    
